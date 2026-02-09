@@ -10,5 +10,4 @@ test-output/
 *.iml
 
 # Configuration and Secrets
-src/test/resources/config.properties
 .env
