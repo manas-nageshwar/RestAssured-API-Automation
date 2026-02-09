@@ -1,0 +1,14 @@
+# Build artifacts
+target/
+test-output/
+
+# IDE specific files
+.settings/
+.classpath
+.project
+.idea/
+*.iml
+
+# Configuration and Secrets
+src/test/resources/config.properties
+.env
