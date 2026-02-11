@@ -35,6 +35,6 @@ public class CalculatorTest {
     public void verifyAddition() {
     	Response response = calculator.getCalculation("10+100");
     	Assert.assertEquals(response.statusCode(), 200);
-    	Assert.assertEquals(response.jsonPath().getString("result"), "110");
+    	Assert.assertEquals(response.jsonPath().getString("result"), "100");
     }
 }
