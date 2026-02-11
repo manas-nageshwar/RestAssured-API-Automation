@@ -21,8 +21,7 @@ public class CalculatorAPI {
 		Map<String, String> headers = new HashMap<>();
 		headers.put("content-type", "application/json");
 		baseURI = baseUri;
-		return 
-				given()
+		return given()
 		.headers(headers)
 		.body(json.toString())
 		.when()

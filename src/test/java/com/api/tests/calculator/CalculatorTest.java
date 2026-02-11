@@ -12,7 +12,7 @@ public class CalculatorTest {
     public void verifyMultiplication() {
         // Perform action
         Response response = calculator.getCalculation("5*5");
-        response.prettyPrint();
+        System.out.println(response.jsonPath().getString("result"));
         // Assertions
         Assert.assertEquals(response.getStatusCode(), 200);
         String result = response.jsonPath().getString("result");
@@ -21,9 +21,14 @@ public class CalculatorTest {
 
     @Test
     public void verifyDivision() {
-        Response response = calculator.getCalculation("10/2");
-        
+        Response response = calculator.getCalculation("10/2");        
         Assert.assertEquals(response.getStatusCode(), 200);
         Assert.assertEquals(response.jsonPath().getString("result"), "5");
+    }
+    @Test
+    public void verifySubtraction() {
+    	Response response = calculator.getCalculation("10-9");
+    	Assert.assertEquals(response.statusCode(), 200);
+    	Assert.assertEquals(response.jsonPath().getString("result"), "1");
     }
 }
