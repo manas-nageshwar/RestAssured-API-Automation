@@ -8,6 +8,7 @@ test-output/
 .project
 .idea/
 *.iml
+allure-results/
 
 # Configuration and Secrets
 .env
