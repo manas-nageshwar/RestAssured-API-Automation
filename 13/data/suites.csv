@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","204","verifySubtraction","Surefire suite","Thu Feb 12 18:30:58 UTC 2026","passed","Thu Feb 12 18:30:58 UTC 2026","com.api.tests.calculator.CalculatorTest","Surefire test","com.api.tests.calculator.CalculatorTest","verifySubtraction"
+"","209","verifyMultiplication","Surefire suite","Thu Feb 12 18:30:58 UTC 2026","passed","Thu Feb 12 18:30:58 UTC 2026","com.api.tests.calculator.CalculatorTest","Surefire test","com.api.tests.calculator.CalculatorTest","verifyMultiplication"
+"","205","verifyDivision","Surefire suite","Thu Feb 12 18:30:57 UTC 2026","passed","Thu Feb 12 18:30:58 UTC 2026","com.api.tests.calculator.CalculatorTest","Surefire test","com.api.tests.calculator.CalculatorTest","verifyDivision"
+"","3015","verifyAddition","Surefire suite","Thu Feb 12 18:30:54 UTC 2026","failed","Thu Feb 12 18:30:57 UTC 2026","com.api.tests.calculator.CalculatorTest","Surefire test","com.api.tests.calculator.CalculatorTest","verifyAddition"
